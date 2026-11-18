@@ -40,7 +40,7 @@ SQL was used to validate, clean, and analyze medical claims dataset in PostgreSQ
 ## Findings
 The findings showed through examining 120,000 medical claims, I found that there was an overall denial rate of 28.05%.
 Commercial PPO had the highest denied billed amount at $21.45 million, while Medicaid Managed had the highest denial rate of 28.51%.
-From January 2021 through June 2024 there were approximately $74.13 million in denied billed amounts.
+From January 2021 through June 2024 there were approximately $74.13 million in denied billed amounts. Through this period the denial rate stayed relatively stable with some months trending higher and some trending lower.
 
 <img width="1529" height="860" alt="image" src="https://github.com/user-attachments/assets/62b4ae78-fa76-40a1-9a66-527a416167da" />
 
@@ -48,10 +48,6 @@ From January 2021 through June 2024 there were approximately $74.13 million in d
 ### Business Recommendation
 If this was an actual healthcare organization I would recommend looking further into the reason why claims are being denied and identify any recurring issues and opportunities for improvement. 
 I would also recommend to look further into denied billed amounts to identify the claims and insurers associated with the greatest financial risk. 
-
-### Project limitations
-
-Through this period the denial rate stayed relatively stable with some months trending higher and some trending lower. 
 
 ### Project limitation
 This project uses synthetic data to protect patient privact, which may lack depth and the complexity of real-world healthcare claims. This results in not being able to fully represent some of the challenges associated with an actual healthcare organization. 
