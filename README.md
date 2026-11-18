@@ -20,17 +20,17 @@ Synthetic data was used to demonstrate healthcare claims analysis without exposi
 ## SQL Use
 SQL was used to validate, clean, and analyze medical claims dataset in PostgreSQL.
 
-###Data Validation Process
+# Data Validation Process
 - Checked data for duplicates and missing IDS
 - Checked for zero, negative, and missing claim amounts
 - Validated claims amount and count
 - Checked the relationships between claims main and denial labels tables.
 - Checked for submission date accuracy
 
-###Data Cleaning Process
+# Data Cleaning Process
 - Submission date was converted from test to DATE data type.
 
-###Data Analysis Process
+# Data Analysis Process
 - Compared denial rates across payer types and calculated overall denial rate percentage.
 - Identified the top 10 codes by denial and calculated denial rate by procedure codes.
 - Calculated total denied billed amounts and identified denied billed amount by payer type
