@@ -5,6 +5,8 @@ Medical claims denial and payer performance using SQL and PowerBI
 This medical claims analysis project solves the relationship between denied claims and payer type as well as the financial exposure associated with denied claims. 
 I used SQL and PowerBI to compare denial rates, denied billed amounts, and identified the trend over time across insurers. 
 This would help healthcare organizations identify different areas that may need further investigation and help to improve claims management.
+PostgreSQL was used to clean, validate, and analyze the claims data before moving it into PowerBI. PowerBI was used to create a visual representation and dashboard of the analysis performed in SQL as well as using DAX measures for calculations. GitHub was also used to used to showcase my project, explain my project and keep all files and screenshots in one central location.
+
 
 ## Dataset
 This project uses the DenialIQ: 120K Medical Claims dataset by nudratabbas on Kaggle.
@@ -27,10 +29,26 @@ SQL was used to validate, clean, and analyze medical claims dataset in PostgreSQ
 - Checked the relationships between claims main and denial labels tables.
 - Checked for submission date accuracy
 
-# Data Cleaning Process
+### Data Cleaning Process
 - Submission date was converted from test to DATE data type.
 
-# Data Analysis Process
+### Data Analysis Process
 - Compared denial rates across payer types and calculated overall denial rate percentage.
 - Identified the top 10 codes by denial and calculated denial rate by procedure codes.
 - Calculated total denied billed amounts and identified denied billed amount by payer type
+
+## Findings
+The findings showed through examining 120,000 medical claims, I found that there was an overall denial rate of 28.05%.
+Commercial PPO had the highest denied billed amount at $21.45 million, while Medicaid Managed had the highest denial rate of 28.51%.
+From January 2021 through June 2024 there were approximately $74.13 million in denied billed amounts.
+
+### Business Recommendation
+If this was an actual healthcare organization I would recommend looking further into the reason why claims are being denied and identify any recurring issues and opportunities for improvement. 
+I would also recommend to look further into denied billed amounts to identify the claims and insurers associated with the greatest financial risk. 
+
+### Project limitations
+
+Through this period the denial rate stayed relatively stable with some months trending higher and some trending lower. 
+
+### Project limitation
+This project uses synthetic data to protect patient privact, which may lack depth and the complexity of real-world healthcare claims. This results in not being able to fully represent some of the challenges associated with an actual healthcare organization. 
