@@ -42,6 +42,9 @@ The findings showed through examining 120,000 medical claims, I found that there
 Commercial PPO had the highest denied billed amount at $21.45 million, while Medicaid Managed had the highest denial rate of 28.51%.
 From January 2021 through June 2024 there were approximately $74.13 million in denied billed amounts.
 
+<img width="1529" height="860" alt="image" src="https://github.com/user-attachments/assets/62b4ae78-fa76-40a1-9a66-527a416167da" />
+
+
 ### Business Recommendation
 If this was an actual healthcare organization I would recommend looking further into the reason why claims are being denied and identify any recurring issues and opportunities for improvement. 
 I would also recommend to look further into denied billed amounts to identify the claims and insurers associated with the greatest financial risk. 
