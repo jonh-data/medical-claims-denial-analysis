@@ -20,7 +20,7 @@ Synthetic data was used to demonstrate healthcare claims analysis without exposi
 ## SQL Use
 SQL was used to validate, clean, and analyze medical claims dataset in PostgreSQL.
 
-# Data Validation Process
+### Data Validation Process
 - Checked data for duplicates and missing IDS
 - Checked for zero, negative, and missing claim amounts
 - Validated claims amount and count
